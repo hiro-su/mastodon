@@ -1,11 +1,11 @@
 ---
 ja:
   about:
-    about_mastodon: Mastodon は <em>無料のオープンソース</em> ソーシャルネットワークです。商用プラットフォームの代わりに<em>分散</em>され、単一の企業が通信を独占するリスクを回避します。あなたが信頼するサーバーを選択してください。どちらを選んでも、他の人とやりとりすることができます。 誰もが独自の Mastodon のインスタンスを実行し、シームレスに<em>ソーシャルネットワーク</em>に参加することができます。
+    about_mastodon: Mastodon は <em>フリーのオープンソース</em> ソーシャルネットワークです。商用のプラットフォームの代替案として<em>分散</em>され、単一の企業があなたのコミュニケーションを独占するリスクを回避します。あなたが信頼するサーバーを選択してください。(いずれを選んでも、すべてのユーザーとやりとりすることができます。) 誰もが独自の Mastodon のインスタンスを実行し、シームレスに<em>ソーシャルネットワーク</em>に参加することができます。
     about_this: このインスタンスについて
     apps: Apps
     business_email: 'Business e-mail:'
-    closed_registrations: このインスタンスでは、登録は現在クローズされています。
+    closed_registrations: このインスタンスでは、新規登録は現在クローズされています。
     contact: Contact
     description_headline: What is %{domain}?
     domain_count_after: 他のインスタンス
@@ -14,31 +14,31 @@ ja:
       api: アプリとサービス用のオープンAPI
       blocks: 豊富なブロックおよびミュートツール
       characters: 投稿あたり500文字
-      chronology: タイムラインは時系列順です
-      ethics: '倫理的なデザイン：広告なし、トラッキングなし'
+      chronology: 時系列順のタイムライン
+      ethics: 'エシカルなデザイン：広告なし、トラッキングなし'
       gifv: GIFVセットと短いビデオ
-      privacy: 個別のプライバシー設定
+      privacy: 詳細な投稿あたりのプライバシー設定
       public: 公開タイムライン
-    features_headline: mastodon をどのように設定するか
+    features_headline: Mastodon の特徴 
     get_started: はじめる
     links: Links
     other_instances: 他のインスタンス
-    source_code: Source code
+    source_code: ソースコード
     status_count_after: statuses
     status_count_before: Who authored
     terms: Terms
-    user_count_after: users
+    user_count_after: ユーザー
     user_count_before: Home to
   accounts:
     follow: Follow
     followers: Followers
     following: Following
-    nothing_here: ここには何もありません！
-    people_followed_by: People whom %{name} follows
-    people_who_follow: People who follow %{name}
-    posts: Posts
+    nothing_here: 何もありません！
+    people_followed_by: '%{name} がフォローしているユーザー '
+    people_who_follow: '%{name} をフォローしているユーザー'
+    posts: 投稿
     remote_follow: Remote follow
-    unfollow: Unfollow
+    unfollow: フォローを解除する
   application_mailer:
     settings: 'メール設定を変更する: %{link}'
     signature: Mastodon からの通知 %{instance}
@@ -66,7 +66,7 @@ ja:
       about_x_months: "%{count}mo"
       about_x_years: "%{count}y"
       almost_x_years: "%{count}y"
-      half_a_minute: Just now
+      half_a_minute: ちょうど今
       less_than_x_minutes: "%{count}m"
       less_than_x_seconds: Just now
       over_x_years: "%{count}y"
@@ -87,7 +87,7 @@ ja:
       one: 何かが間違っています！以下のエラーを確認してください
       other: 何かが間違っています！%{count} 個のエラーを確認してください
   imports:
-    preface: このインスタンスでは、他のインスタンスでのエクスポートによって作成されたファイルから、あなたが従うすべての人物やあなたのアカウントにブロックされているような特定のデータをインポートできます。
+    preface: このインスタンスでは、他のインスタンスでのエクスポートによって作成されたファイルから、あなたがフォローしたすべての人物やあなたのアカウントにブロックされているような特定のデータをインポートできます。
     success: あなたのデータは正常にアップロードされ、期限内に処理されるようになりました
     types:
       blocking: Blocking list
@@ -100,7 +100,7 @@ ja:
       too_many: 4つ以上のファイルを添付できません
   notification_mailer:
     digest:
-      body: '最後に%{since}を訪問してから%{instance}で見逃した内容を簡単にまとめました：'
+      body: '前回の%{since}の訪問から%{instance}で見逃した内容を簡単にまとめました：'
       mention: "%{name} mentioned you in:"
       new_followers_summary:
         one: あなたは1人の新しいフォロワーを獲得しました！わーい！
@@ -109,20 +109,20 @@ ja:
         one: "前回の訪問から1件の新しい通知 \U0001F418"
         other: "前回の訪問から%{count}件の新しい通知 \U0001F418"
     favourite:
-      body: 'Your status was favourited by %{name}:'
-      subject: "%{name} favourited your status"
+      body: 'あなたのステータスを%{name}がお気に入りに登録しました'
+      subject: "%{name}があなたのステータスをお気に入りに登録しました"
     follow:
-      body: "%{name} is now following you!"
-      subject: "%{name} is now following you"
+      body: "%{name}はあなたをフォローしています!"
+      subject: "%{name}はあなたをフォローしています"
     follow_request:
-      body: "%{name} has requested to follow you"
+      body: "%{name}はあなたをフォローするリクエストが"
       subject: 'Pending follower: %{name}'
     mention:
-      body: 'You were mentioned by %{name} in:'
-      subject: You were mentioned by %{name}
+      body: '%{name}があなたにメンションしています :'
+      subject: '%{name}があなたにメンションしています'
     reblog:
-      body: 'Your status was boosted by %{name}:'
-      subject: "%{name} boosted your status"
+      body: 'あなたのステータスが%{name}によって共有されました:'
+      subject: "%{name}があなたのステータスを共有しました"
   pagination:
     next: 次へ
     prev: 戻る

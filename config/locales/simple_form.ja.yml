@@ -1,0 +1,46 @@
+---
+ja:
+  simple_form:
+    hints:
+      defaults:
+        avatar: PNG, GIF or JPG。最大2MB。120x120pxに縮小されます。
+        display_name: 最大30文字
+        header: PNG, GIF or JPG。最大2MB。700x335pxに縮小されます。
+        locked: フォロワーとフォロワーのみの投稿は手動で承認する必要があります。
+        note: 最大160文字
+      imports:
+        data: 別のMastodonインスタンスからエクスポートされたCSVファイル
+    labels:
+      defaults:
+        avatar: Avatar
+        confirm_new_password: 新しいパスワード(確認)
+        confirm_password: パスワード(確認)
+        current_password: 現在のパスワード
+        data: Data
+        display_name: 表示名
+        email: E-mail address
+        header: Header
+        locale: 言語
+        locked: アカウントを非公開にする
+        new_password: 新しいパスワード
+        note: Bio
+        otp_attempt: 二要素コード
+        password: パスワード
+        setting_default_privacy: 投稿プライバシー
+        type: Import type
+        username: ユーザ名
+      interactions:
+        must_be_follower: 非フォロワーからの通知をブロックする
+        must_be_following: あなたがフォローしていないユーザーからの通知をブロックする
+      notification_emails:
+        digest: ダイジェストメールを送信する
+        favourite: 誰かがあなたのステータスをお気に入りにしたときにメールを送信する
+        follow: 誰かがあなたをフォローしたときにメールを送信する
+        follow_request: 誰かがあなたにフォローを要求したときに電子メールを送信する
+        mention: 誰かがあなたに言及したときにメールを送信する
+        reblog: 誰かがあなたのステータスを高めるときにメールを送信する
+    'no': 'No'
+    required:
+      mark: "*"
+      text: required
+    'yes': 'Yes'

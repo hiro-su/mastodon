@@ -1,0 +1,172 @@
+---
+ja:
+  about:
+    about_mastodon: Mastodon は <em>無料のオープンソース</em> ソーシャルネットワークです。商用プラットフォームの代わりに<em>分散</em>され、単一の企業が通信を独占するリスクを回避します。あなたが信頼するサーバーを選択してください。どちらを選んでも、他の人とやりとりすることができます。 誰もが独自の Mastodon のインスタンスを実行し、シームレスに<em>ソーシャルネットワーク</em>に参加することができます。
+    about_this: このインスタンスについて
+    apps: Apps
+    business_email: 'Business e-mail:'
+    closed_registrations: このインスタンスでは、登録は現在クローズされています。
+    contact: Contact
+    description_headline: What is %{domain}?
+    domain_count_after: 他のインスタンス
+    domain_count_before: Connected to
+    features:
+      api: アプリとサービス用のオープンAPI
+      blocks: 豊富なブロックおよびミュートツール
+      characters: 投稿あたり500文字
+      chronology: タイムラインは時系列順です
+      ethics: '倫理的なデザイン：広告なし、トラッキングなし'
+      gifv: GIFVセットと短いビデオ
+      privacy: 個別のプライバシー設定
+      public: 公開タイムライン
+    features_headline: mastodon をどのように設定するか
+    get_started: はじめる
+    links: Links
+    other_instances: 他のインスタンス
+    source_code: Source code
+    status_count_after: statuses
+    status_count_before: Who authored
+    terms: Terms
+    user_count_after: users
+    user_count_before: Home to
+  accounts:
+    follow: Follow
+    followers: Followers
+    following: Following
+    nothing_here: ここには何もありません！
+    people_followed_by: People whom %{name} follows
+    people_who_follow: People who follow %{name}
+    posts: Posts
+    remote_follow: Remote follow
+    unfollow: Unfollow
+  application_mailer:
+    settings: 'メール設定を変更する: %{link}'
+    signature: Mastodon からの通知 %{instance}
+    view: 'View:'
+  applications:
+    invalid_url: 指定されたURLは無効です
+  auth:
+    change_password: Credentials
+    didnt_get_confirmation: 確認メールを受け取っていませんか？
+    forgot_password: パスワードを忘れましたか？
+    login: ログイン
+    logout: ログアウト
+    register: サインアップ
+    resend_confirmation: 確認メールを再送信します。
+    reset_password: パスワードリセット
+    set_new_password: 新たにパスワードを設定する
+  authorize_follow:
+    error: リモートアカウントを検索する際にエラーが発生しました
+    follow: Follow
+    prompt_html: 'You (<strong>%{self}</strong>) have requested to follow:'
+    title: Follow %{acct}
+  datetime:
+    distance_in_words:
+      about_x_hours: "%{count}h"
+      about_x_months: "%{count}mo"
+      about_x_years: "%{count}y"
+      almost_x_years: "%{count}y"
+      half_a_minute: Just now
+      less_than_x_minutes: "%{count}m"
+      less_than_x_seconds: Just now
+      over_x_years: "%{count}y"
+      x_days: "%{count}d"
+      x_minutes: "%{count}m"
+      x_months: "%{count}mo"
+      x_seconds: "%{count}s"
+  exports:
+    blocks: You block
+    csv: CSV
+    follows: You follow
+    storage: Media storage
+  generic:
+    changes_saved_msg: 変更は正常に保存されました！
+    powered_by: powered by %{link}
+    save_changes: 変更の保存
+    validation_errors:
+      one: 何かが間違っています！以下のエラーを確認してください
+      other: 何かが間違っています！%{count} 個のエラーを確認してください
+  imports:
+    preface: このインスタンスでは、他のインスタンスでのエクスポートによって作成されたファイルから、あなたが従うすべての人物やあなたのアカウントにブロックされているような特定のデータをインポートできます。
+    success: あなたのデータは正常にアップロードされ、期限内に処理されるようになりました
+    types:
+      blocking: Blocking list
+      following: Following list
+    upload: Upload
+  landing_strip_html: <strong>%{name}</strong> is a user on <strong>%{domain}</strong>. You can follow them or interact with them if you have an account anywhere in the fediverse. If you don't, you can <a href="%{sign_up_path}">sign up here</a>.
+  media_attachments:
+    validations:
+      images_and_video: 既に画像が含まれているステータスにはビデオを添付できません
+      too_many: 4つ以上のファイルを添付できません
+  notification_mailer:
+    digest:
+      body: '最後に%{since}を訪問してから%{instance}で見逃した内容を簡単にまとめました：'
+      mention: "%{name} mentioned you in:"
+      new_followers_summary:
+        one: あなたは1人の新しいフォロワーを獲得しました！わーい！
+        other: あなたは%{count}人の新しいフォロワーを獲得しました！ 素晴らしい！
+      subject:
+        one: "前回の訪問から1件の新しい通知 \U0001F418"
+        other: "前回の訪問から%{count}件の新しい通知 \U0001F418"
+    favourite:
+      body: 'Your status was favourited by %{name}:'
+      subject: "%{name} favourited your status"
+    follow:
+      body: "%{name} is now following you!"
+      subject: "%{name} is now following you"
+    follow_request:
+      body: "%{name} has requested to follow you"
+      subject: 'Pending follower: %{name}'
+    mention:
+      body: 'You were mentioned by %{name} in:'
+      subject: You were mentioned by %{name}
+    reblog:
+      body: 'Your status was boosted by %{name}:'
+      subject: "%{name} boosted your status"
+  pagination:
+    next: 次へ
+    prev: 戻る
+    truncate: "&hellip;"
+  remote_follow:
+    acct: あなたの username@domain を入力してください
+    missing_resource: アカウントに必要なリダイレクトURLが見つかりませんでした
+    proceed: フォローする
+    prompt: 'You are going to follow:'
+  settings:
+    authorized_apps: 認可されたアプリ
+    back: Mastodon に戻る
+    edit_profile: プロフィール編集
+    export: データエクスポート
+    import: インポート
+    preferences: 設定
+    settings: 設定
+    two_factor_auth: 二要素認証
+  statuses:
+    open_in_web: Webを開く
+    over_character_limit: '%{max}の文字制限を超えました'
+    show_more: Show more
+    visibilities:
+      private: フォロワーにのみ表示
+      public: 公開
+      unlisted: 公開されていますが、公開タイムラインには表示されません
+  stream_entries:
+    click_to_show: Click to show
+    reblogged: boosted
+    sensitive_content: Sensitive content
+  time:
+    formats:
+      default: "%b %d, %Y, %H:%M"
+  two_factor_auth:
+    code_hint: Authenticatorアプリで生成されたコードを入力してください
+    description_html: <strong>二要素認証</strong>を有効にすると、ログイン時に携帯電話によるトークン生成を行う必要があります。
+    disable: 無効
+    enable: 有効
+    enabled_success: 二要素認証が有効になりました
+    instructions_html: "<strong>このQRコードをGoogle認証システムまたは携帯端末の同様のTOTPアプリにスキャンします。</strong>そのアプリはログイン時に入力する必要があるトークンを生成します。"
+    manual_instructions: 'あなたがQRコードをスキャンできず、手動で入力する必要がある場合は、ここにプレーンテキストの秘密があります：'
+    setup: Set up
+    warning: 今すぐAuthenticatorアプリを設定できない場合は、[無効にする]をクリックするか、ログインできなくなります。
+    wrong_code: 入力されたコードは無効です！ サーバ時間とデバイス時間は正しいですか？
+  users:
+    invalid_email: 無効なメールアドレスです
+    invalid_otp_token: 無効な2要素コードです
